@@ -1,0 +1,326 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1612232218988" stop="1612232220103">
+  <name>fixture_test_21</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1612232218988" status="passed" stop="1612232219034">
+      <name>Test_xx.test_xx</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219010" status="passed" stop="1612232219034">
+          <name>我是步骤一</name>
+          <title>我是步骤一</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219066" status="failed" stop="1612232219129">
+      <name>Test_oo.test_oo2[1]</name>
+      <failure>
+        <message>AssertionError: assert 1 != 1</message>
+        <stack-trace>self = &lt;fixture_test_21.Test_oo object at 0x0000018FD2F94880&gt;, a = 1
+
+    @pytest.allure.step("我是步骤二")
+    # @allure.severity(allure.severity_level.BLOCKER)
+    def test_oo2(self, a):
+            allure.attach(a, "不等于1")
+&gt;           assert a != 1
+E           assert 1 != 1
+
+..\APP\GitHub_Test\fixture_test_21.py:26: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219087" status="failed" stop="1612232219123">
+          <name>我是步骤二</name>
+          <title>我是步骤二</title>
+          <attachments>
+            <attachment source="271e8365-2780-4c37-acd0-052180e4e785-attachment.txt" title="1" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219168" status="passed" stop="1612232219219">
+      <name>Test_oo.test_oo2[2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219189" status="passed" stop="1612232219219">
+          <name>我是步骤二</name>
+          <title>我是步骤二</title>
+          <attachments>
+            <attachment source="87abef00-bda1-44a3-ba0f-2315ae975b02-attachment.txt" title="2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219251" status="passed" stop="1612232219304">
+      <name>Test_oo.test_oo2[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219273" status="passed" stop="1612232219303">
+          <name>我是步骤二</name>
+          <title>我是步骤二</title>
+          <attachments>
+            <attachment source="4b76b25c-eaa1-4ceb-820b-000e28d8e63a-attachment.txt" title="3" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219337" status="passed" stop="1612232219389">
+      <name>Test_oo.test_oo3[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219358" status="passed" stop="1612232219389">
+          <name>我是步骤三</name>
+          <title>我是步骤三</title>
+          <attachments>
+            <attachment source="c6de07a2-97fe-4f94-837e-4f199e0f067b-attachment.txt" title="1" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219423" status="failed" stop="1612232219483">
+      <name>Test_oo.test_oo3[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;fixture_test_21.Test_oo object at 0x0000018FD2FF1DF0&gt;, a = 2
+
+    @pytest.allure.step("我是步骤三")
+    def test_oo3(self, a):
+            allure.attach(a, "不等于2")
+&gt;           assert a != 2
+E           assert 2 != 2
+
+..\APP\GitHub_Test\fixture_test_21.py:31: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219444" status="failed" stop="1612232219480">
+          <name>我是步骤三</name>
+          <title>我是步骤三</title>
+          <attachments>
+            <attachment source="13495826-b462-441f-8bfb-aac65457c843-attachment.txt" title="2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219525" status="passed" stop="1612232219577">
+      <name>Test_oo.test_oo3[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219546" status="passed" stop="1612232219577">
+          <name>我是步骤三</name>
+          <title>我是步骤三</title>
+          <attachments>
+            <attachment source="9b4514c8-7729-4e9e-8246-a211d53c791b-attachment.txt" title="3" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219610" status="passed" stop="1612232219663">
+      <name>Test_oo.test_oo4[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219631" status="passed" stop="1612232219663">
+          <name>我是步骤四</name>
+          <title>我是步骤四</title>
+          <attachments>
+            <attachment source="c82039fb-c783-48e0-82b6-f38e40fe2c1c-attachment.txt" title="1" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219696" status="passed" stop="1612232219746">
+      <name>Test_oo.test_oo4[2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219717" status="passed" stop="1612232219746">
+          <name>我是步骤四</name>
+          <title>我是步骤四</title>
+          <attachments>
+            <attachment source="7d097342-ccbc-4d77-aed6-bb5a1dde6210-attachment.txt" title="2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219780" status="failed" stop="1612232219836">
+      <name>Test_oo.test_oo4[3]</name>
+      <failure>
+        <message>AssertionError: assert 3 != 3</message>
+        <stack-trace>self = &lt;fixture_test_21.Test_oo object at 0x0000018FD301D070&gt;, a = 3
+
+    @pytest.allure.step("我是步骤四")
+    def test_oo4(self, a):
+            allure.attach(a, "不等于3")
+&gt;           assert a != 3
+E           assert 3 != 3
+
+..\APP\GitHub_Test\fixture_test_21.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219802" status="failed" stop="1612232219833">
+          <name>我是步骤四</name>
+          <title>我是步骤四</title>
+          <attachments>
+            <attachment source="d6b94cb9-7b8f-45fe-821a-88801174a104-attachment.txt" title="3" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219875" status="passed" stop="1612232219928">
+      <name>Test_oo.test_oo5[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219896" status="passed" stop="1612232219927">
+          <name>我是步骤五</name>
+          <title>我是步骤五</title>
+          <attachments>
+            <attachment source="789691f7-89a7-4ee2-aae4-43c22d07b34b-attachment.txt" title="1" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232219961" status="passed" stop="1612232220014">
+      <name>Test_oo.test_oo5[2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232219982" status="passed" stop="1612232220014">
+          <name>我是步骤五</name>
+          <title>我是步骤五</title>
+          <attachments>
+            <attachment source="5f9aa8f5-bc11-452c-aba4-1bff08ec5568-attachment.txt" title="2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1612232220048" status="failed" stop="1612232220103">
+      <name>Test_oo.test_oo5[3]</name>
+      <failure>
+        <message>AssertionError: assert 3 != 3</message>
+        <stack-trace>self = &lt;fixture_test_21.Test_oo object at 0x0000018FD30223D0&gt;, a = 3
+
+    @pytest.allure.step("我是步骤五")
+    def test_oo5(self, a):
+        allure.attach(a, "不等于3")
+&gt;       assert a != 3
+E       assert 3 != 3
+
+..\APP\GitHub_Test\fixture_test_21.py:41: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17612-MainThread"/>
+        <label name="host" value="NIMO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1612232220069" status="failed" stop="1612232220099">
+          <name>我是步骤五</name>
+          <title>我是步骤五</title>
+          <attachments>
+            <attachment source="676d81d3-fbb8-4ebe-94ea-f4631a068e0e-attachment.txt" title="3" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
